@@ -6,27 +6,29 @@ This repository contains the docker setup with all dependencies required to run 
 
 # Useful commands
 
-**Note: mostly copy/paste from Bioconductor website**
-
 To clone this repository
 
 ```
 git clone https://github.com/VallejosGroup/bioconductor_docker_basics.git
 ```
 
-To build the docker image locally (from the relevant folder)
+To build the docker image locally (assumes you are in the correct folder)
 
 ```
 docker build . -t bioconductor_docker_basics:0.0.1
 ```
 
-Open in Rstudio server
+To run the docker image via Rstudio server. The code below ensures that the files in `$HOME/Documents/Github/Manuscripts/BASiCSWorkflow` are available via Rstudio.  
 
 ```
 docker run -p 8787:8787 -v $HOME/Documents/Github/Manuscripts/BASiCSWorkflow:/home/rstudio/mycode -e PASSWORD=bioc bioconductor_docker_basics:0.0.1
 ```
 
 Then access [http://localhost:8787](http://localhost:8787). Username: rstudio, password = bioc.
+
+# Other commands
+
+**Note: mostly copy/paste from bioconductor website**
 
 To check available images
 
@@ -76,9 +78,6 @@ Delete image
 ```
 docker rmi bioconductor/bioconductor_docker:devel
 ```
-
-
-
 
 # Useful links
 
