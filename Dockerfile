@@ -10,4 +10,4 @@ LABEL name="bioconductor/bioconductor_docker_basics" \
       
 COPY install_cran.R /tmp
 
-RUN Rscript /tmp/install.packages.R
+RUN Rscript /tmp/install_cran.R

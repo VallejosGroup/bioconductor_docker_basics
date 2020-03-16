@@ -17,7 +17,7 @@ git clone https://github.com/VallejosGroup/bioconductor_docker_basics.git
 To build the docker image locally (from the relevant folder)
 
 ```
-docker build . -t VallejosGroup/bioconductor_docker_basics:0.0.1
+docker build . -t bioconductor_docker_basics:0.0.1
 ```
 
 To check available images
