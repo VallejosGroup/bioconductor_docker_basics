@@ -1,7 +1,11 @@
 # List of packages to be installed
 pkgs1 <- c(
+  "coda",
+  "data.table",
+  "knitr",
   "ggplot2",
-  "coda"
+  "ggpointdensity",
+  "pheatmap"
 )
 
 # All packages 

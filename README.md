@@ -20,6 +20,14 @@ To build the docker image locally (from the relevant folder)
 docker build . -t bioconductor_docker_basics:0.0.1
 ```
 
+Open in Rstudio server
+
+```
+docker run -p 8787:8787 -v $HOME/Documents/Github/Manuscripts/BASiCSWorkflow:/home/rstudio/mycode -e PASSWORD=bioc bioconductor_docker_basics:0.0.1
+```
+
+Then access [http://localhost:8787](http://localhost:8787). Username: rstudio, password = bioc.
+
 To check available images
 
 ```
@@ -68,6 +76,8 @@ Delete image
 ```
 docker rmi bioconductor/bioconductor_docker:devel
 ```
+
+
 
 
 # Useful links
