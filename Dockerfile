@@ -22,7 +22,7 @@ RUN apt-get update \
 	texinfo \
 	&& apt-get clean \
 	&& rm -rf /var/lib/apt/lists/*
-   
+	
 # Install R packages from CRAN
 COPY install_cran.R /tmp
 RUN Rscript /tmp/install_cran.R
