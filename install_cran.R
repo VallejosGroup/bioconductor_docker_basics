@@ -4,7 +4,7 @@ if(!file.exists("~/.Rprofile")) # only create if not already there
   file.create("~/.Rprofile")    # (don't overwrite it)
 file.edit("~/.Rprofile")
 
-.libPaths("/usr/local/lib/R/library" ) 
+.libPaths("/usr/local/lib/R/library") 
 
 # List of packages to be installed
 pkgs1 <- c(
