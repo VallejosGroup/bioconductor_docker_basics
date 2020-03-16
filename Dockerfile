@@ -7,3 +7,7 @@ LABEL name="bioconductor/bioconductor_docker_basics" \
       maintainer="catalina.vallejos@igmm.ed.ac.uk" \
       description="Docker containing all requirements to run BASiCS" \
       license="Artistic-2.0"
+      
+COPY install_cran.R /tmp
+
+RUN Rscript /tmp/install.packages.R

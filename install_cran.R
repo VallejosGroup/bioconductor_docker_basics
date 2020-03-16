@@ -1,0 +1,17 @@
+# List of packages to be installed
+pkgs1 <- c(
+  "ggplot2",
+  "coda"
+)
+
+# All packages 
+all_pkgs <- pkgs1
+
+install.packages(pkgs1,
+                 Ncpus = 4)
+
+# List installed packages
+installed_pkgs <- as.vector(installed.packages()[,1])
+
+# Check if anything is not installed 
+print(setdiff(all_pkgs,installed_pkgs))
