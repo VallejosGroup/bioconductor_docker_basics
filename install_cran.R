@@ -5,7 +5,8 @@ pkgs1 <- c(
   "knitr",
   "ggplot2",
   "ggpointdensity",
-  "pheatmap"
+  "pheatmap",
+  "rmarkdown"
 )
 
 # All packages 
