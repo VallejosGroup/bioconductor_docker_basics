@@ -1,6 +1,6 @@
 # Introduction
 
-This repository contains the docker setup with all dependencies required to run BASiCS. The setup inherits from the `bioconductor/bioconductor_docker`.
+This repository contains the docker setup with all dependencies required to run the BASiCS workflow. The setup inherits from the `bioconductor/bioconductor_docker`.
 
 **This repository is under development - not ready to be used**
 
