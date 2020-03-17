@@ -1,4 +1,4 @@
-.libPaths("/usr/local/lib/R/site-library/")
+# .libPaths("/usr/local/lib/R/site-library/")
 
 # List of packages to be installed
 pkgs1 <- c(
@@ -11,6 +11,7 @@ pkgs1 <- c(
   "pheatmap",
   "rmarkdown",
   "RSQLite",
+  "reshape2",
   "survival"
 )
 

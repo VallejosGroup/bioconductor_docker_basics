@@ -1,4 +1,4 @@
-.libPaths("/usr/local/lib/R/site-library/")
+# .libPaths("/usr/local/lib/R/site-library/")
 
 pkgs1 <- c(
   "AnnotationDbi",
@@ -11,7 +11,8 @@ pkgs1 <- c(
   "org.Mm.eg.db",
   "scran",
   "scater",
-  "SingleCellExperiment"
+  "SingleCellExperiment",
+  "BiocWorkflowTools"
 )
 
 BiocManager::install(pkgs1, update = FALSE, Ncpus = 4)

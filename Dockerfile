@@ -25,7 +25,7 @@ RUN apt-get update \
 
 # Trying to fix rmarkdown issue	
 RUN touch /home/rstudio/.Rprofile
-	
+
 # Install R packages from CRAN
 COPY install_cran.R /tmp
 RUN Rscript /tmp/install_cran.R
