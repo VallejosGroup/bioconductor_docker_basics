@@ -22,6 +22,9 @@ RUN apt-get update \
 	texinfo \
 	&& apt-get clean \
 	&& rm -rf /var/lib/apt/lists/*
+
+# Trying to fix rmarkdown issue	
+RUN touch /home/rstudio/.Rprofile
 	
 # Install R packages from CRAN
 COPY install_cran.R /tmp
