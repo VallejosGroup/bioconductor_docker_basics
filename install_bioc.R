@@ -1,7 +1,8 @@
-BiocManager::install("BiocStyle")
-
 pkgs1 <- c(
-  "BiocStyle"
+  "BASiCS",
+  "BiocStyle",
+  "scran",
+  "scater"
 )
 
 BiocManager::install(pkgs1, update = FALSE, Ncpus = 4)
