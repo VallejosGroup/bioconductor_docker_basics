@@ -1,6 +1,5 @@
 # List of packages to be installed
 pkgs1 <- c(
-  "BiocManager",
   "coda",
   "data.table",
   "knitr",

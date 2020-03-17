@@ -1,8 +1,13 @@
 pkgs1 <- c(
   "BASiCS",
   "BiocStyle",
+  "biomaRt",
+  "EnsDb.Mmusculus.v79",
+  "goseq",
+  "org.Mm.eg.db",
   "scran",
-  "scater"
+  "scater",
+  "SingleCellExperiment"
 )
 
 BiocManager::install(pkgs1, update = FALSE, Ncpus = 4)
