@@ -1,8 +1,10 @@
 pkgs1 <- c(
+  "AnnotationDbi",
   "BASiCS",
   "BiocStyle",
   "biomaRt",
   "EnsDb.Mmusculus.v79",
+  "GenomicFeatures",
   "goseq",
   "org.Mm.eg.db",
   "scran",

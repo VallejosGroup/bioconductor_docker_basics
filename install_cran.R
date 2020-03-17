@@ -1,12 +1,15 @@
 # List of packages to be installed
 pkgs1 <- c(
+  "bit64",
   "coda",
   "data.table",
   "knitr",
   "ggplot2",
   "ggpointdensity",
   "pheatmap",
-  "rmarkdown"
+  "rmarkdown",
+  "RSQLite",
+  "survival"
 )
 
 # All packages 
