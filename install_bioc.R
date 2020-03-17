@@ -1,3 +1,5 @@
+.libPaths("/usr/local/lib/R/site-library/")
+
 pkgs1 <- c(
   "AnnotationDbi",
   "BASiCS",
