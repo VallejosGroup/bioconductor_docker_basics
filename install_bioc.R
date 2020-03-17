@@ -4,6 +4,7 @@ pkgs1 <- c(
   "AnnotationDbi",
   "BASiCS",
   "BiocStyle",
+  "BiocWorkflowTools",
   "biomaRt",
   "EnsDb.Mmusculus.v79",
   "GenomicFeatures",
