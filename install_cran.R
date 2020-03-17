@@ -1,3 +1,5 @@
+.libPaths("/usr/local/lib/R/library")
+
 # List of packages to be installed
 pkgs1 <- c(
   "bit64",
