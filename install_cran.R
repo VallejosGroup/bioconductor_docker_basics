@@ -12,6 +12,7 @@ pkgs1 <- c(
   "rmarkdown",
   "RSQLite",
   "reshape2",
+  "hexbin",
   "survival"
 )
 
